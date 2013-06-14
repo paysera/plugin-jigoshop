@@ -1,0 +1,19 @@
+1. Nukopijuokite "wp-content" folderi i Wordpress instaliacijos direktorija;
+2. Pridekite sia eilute:
+   
+   include_once( 'gateways/paysera.php' );
+
+   i /wp-content/plugins/jigoshop/jigoshop.php faila iskart po siuo programiniu kodu:
+
+   include_once( 'gateways/skrill.php' );
+
+3. Administratoriaus aplinkoje eikite i Jigoshop->Settings->Payment Gateways ir
+   iveskite visus reikalingus duomenis po "WebToPay Payment" skiltim;
+
+# -- ATNAUJINIMAI --
+
+* 2013-05-28 / Callback patobulinimas, merchant ID nebeprasomas
+* 2013-03-25 / Pataisytas micro mokėjimai;
+* 2013-05-14. Fix. Rodo mokejimo buda kuponuose
+
+Iskilus nesklandumams prasome kreiptis i pagalba@mokejimai.lt
