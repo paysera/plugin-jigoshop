@@ -1,0 +1,17 @@
+Diegimas
+
+1. Nukopijuokite "wp-content" folderi i Wordpress instaliacijos direktorija;
+2. Pridekite sia eilute:
+   
+   include_once( 'gateways/paysera.php' );
+
+   i /wp-content/plugins/jigoshop/jigoshop.php faila iskart po siuo programiniu kodu:
+
+   include_once( 'gateways/skrill.php' );
+
+3. Administratoriaus aplinkoje eikite i Jigoshop->Settings->Payment Gateways ir
+   iveskite visus reikalingus duomenis po "Paysera Payment" skiltim.
+
+Kontaktai
+
+Kilus klausimams prasome kreiptis i pagalba@mokejimai.lt
