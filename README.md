@@ -12,7 +12,7 @@ Requirements
 Installation
 ------------
 
-1. Download this repository as zip and extract "wp-content" folder into wordpress main directory;
+1. Download this repository as zip and extract "wp-content" folder into wordpress main directory.
 2. Add following line:
 
    include_once( 'gateways/paysera.php' );
